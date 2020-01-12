@@ -1,801 +1,1006 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
-  font-family: "fontello";
-  src: url("fonts/fontello.eot?3777587");
-  src: url("fonts/fontello.eot?3777587#iefix") format("embedded-opentype"),
-    url("fonts/fontello.woff2?3777587") format("woff2"), url("fonts/fontello.woff?3777587") format("woff"),
-    url("fonts/fontello.ttf?3777587") format("truetype"), url("fonts/fontello.svg?3777587#fontello") format("svg");
-  src: url("fonts/fontello.eot?34169700");
-  src: url("fonts/fontello.eot?34169700#iefix") format("embedded-opentype"),
-    url("fonts/fontello.woff2?34169700") format("woff2"), url("fonts/fontello.woff?34169700") format("woff"),
-    url("fonts/fontello.ttf?34169700") format("truetype"), url("fonts/fontello.svg?34169700#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "fontello";
+    src: url("fonts/fontello.eot?3777587");
+    src: url("fonts/fontello.eot?3777587#iefix") format("embedded-opentype"), url("fonts/fontello.woff2?3777587") format("woff2"), url("fonts/fontello.woff?3777587") format("woff"), url("fonts/fontello.ttf?3777587") format("truetype"), url("fonts/fontello.svg?3777587#fontello") format("svg");
+    src: url("fonts/fontello.eot?34169700");
+    src: url("fonts/fontello.eot?34169700#iefix") format("embedded-opentype"), url("fonts/fontello.woff2?34169700") format("woff2"), url("fonts/fontello.woff?34169700") format("woff"), url("fonts/fontello.ttf?34169700") format("truetype"), url("fonts/fontello.svg?34169700#fontello") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.2em;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-
-  line-height: 1em;
-
-  margin-left: 0.2em;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-magnifying-glass:before {
-  content: "\e800";
-} /* '' */
+    content: "\e800";
+}
+
+
+/* '' */
+
 .icon-phone:before {
-  content: "\e801";
-} /* '' */
+    content: "\e801";
+}
+
+
+/* '' */
+
 .icon-instagram:before {
-  content: "\e802";
-} /* '' */
+    content: "\e802";
+}
+
+
+/* '' */
+
 .icon-kebab:before {
-  content: "\e803";
-} /* '' */
+    content: "\e803";
+}
+
+
+/* '' */
+
 .icon-maps-and-flags:before {
-  content: "\e804";
-} /* '' */
+    content: "\e804";
+}
+
+
+/* '' */
+
 .icon-log-nice:before {
-  content: "\e805";
-} /* '' */
+    content: "\e805";
+}
+
+
+/* '' */
+
 .icon-master-card-logo:before {
-  content: "\e806";
-} /* '' */
+    content: "\e806";
+}
+
+
+/* '' */
+
 .icon-message:before {
-  content: "\e807";
-} /* '' */
+    content: "\e807";
+}
+
+
+/* '' */
+
 .icon-paper-clip:before {
-  content: "\e808";
-} /* '' */
+    content: "\e808";
+}
+
+
+/* '' */
+
 .icon-pencil-tool:before {
-  content: "\e809";
-} /* '' */
+    content: "\e809";
+}
+
+
+/* '' */
+
 .icon-odnoklassniki-logo:before {
-  content: "\e80a";
-} /* '' */
+    content: "\e80a";
+}
+
+
+/* '' */
+
 .icon-ribbon:before {
-  content: "\e80b";
-} /* '' */
+    content: "\e80b";
+}
+
+
+/* '' */
+
 .icon-sad:before {
-  content: "\e80c";
-} /* '' */
+    content: "\e80c";
+}
+
+
+/* '' */
+
 .icon-shield:before {
-  content: "\e80d";
-} /* '' */
+    content: "\e80d";
+}
+
+
+/* '' */
+
 .icon-shopping-cart:before {
-  content: "\e80e";
-} /* '' */
+    content: "\e80e";
+}
+
+
+/* '' */
+
 .icon-storehouse:before {
-  content: "\e80f";
-} /* '' */
+    content: "\e80f";
+}
+
+
+/* '' */
+
 .icon-play-symbol:before {
-  content: "\e810";
-} /* '' */
+    content: "\e810";
+}
+
+
+/* '' */
+
 .icon-visa-pay-logo:before {
-  content: "\e811";
-} /* '' */
+    content: "\e811";
+}
+
+
+/* '' */
+
 .icon-visibility-button:before {
-  content: "\e812";
-} /* '' */
+    content: "\e812";
+}
+
+
+/* '' */
+
 .icon-vk:before {
-  content: "\e813";
-} /* '' */
+    content: "\e813";
+}
+
+
+/* '' */
+
 .icon-youtube-play-button:before {
-  content: "\e814";
-} /* '' */
+    content: "\e814";
+}
+
+
+/* '' */
+
 .icon-award:before {
-  content: "\e815";
-} /* '' */
+    content: "\e815";
+}
+
+
+/* '' */
+
 .icon-besedka:before {
-  content: "\e816";
-} /* '' */
+    content: "\e816";
+}
+
+
+/* '' */
+
 .icon-bonfire:before {
-  content: "\e817";
-} /* '' */
+    content: "\e817";
+}
+
+
+/* '' */
+
 .icon-brick:before {
-  content: "\e818";
-} /* '' */
+    content: "\e818";
+}
+
+
+/* '' */
+
 .icon-brickwall:before {
-  content: "\e819";
-} /* '' */
+    content: "\e819";
+}
+
+
+/* '' */
+
 .icon-director-chair:before {
-  content: "\e81b";
-} /* '' */
+    content: "\e81b";
+}
+
+
+/* '' */
+
 .icon-facebook:before {
-  content: "\e81c";
-} /* '' */
+    content: "\e81c";
+}
+
+
+/* '' */
+
 .icon-factory:before {
-  content: "\e81d";
-} /* '' */
+    content: "\e81d";
+}
+
+
+/* '' */
+
 .icon-fire:before {
-  content: "\e81e";
-} /* '' */
+    content: "\e81e";
+}
+
+
+/* '' */
+
 .icon-fireplace:before {
-  content: "\e81f";
-} /* '' */
+    content: "\e81f";
+}
+
+
+/* '' */
+
 .icon-headset:before {
-  content: "\e820";
-} /* '' */
+    content: "\e820";
+}
+
+
+/* '' */
+
 .icon-house:before {
-  content: "\e821";
-} /* '' */
+    content: "\e821";
+}
+
+
+/* '' */
+
 .icon-information:before {
-  content: "\e822";
-} /* '' */
+    content: "\e822";
+}
+
+
+/* '' */
+
 .icon-truck:before {
-  content: "\e81a";
-} /* '' */
+    content: "\e81a";
+}
+
+
+/* '' */
+
 @font-face {
-  font-family: "Futura PT";
-  src: url("fonts/FuturaPT-Light.woff2") format("woff2"), url("fonts/FuturaPT-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Futura PT";
+    src: url("fonts/FuturaPT-Light.woff2") format("woff2"), url("fonts/FuturaPT-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Futura PT Book";
-  src: url("fonts/FuturaPT-Book.woff2") format("woff2"), url("fonts/FuturaPT-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Futura PT Book";
+    src: url("fonts/FuturaPT-Book.woff2") format("woff2"), url("fonts/FuturaPT-Book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Museo Cyrl 500";
-  src: url("fonts/MuseoCyrl-500.woff2") format("woff2"), url("fonts/MuseoCyrl-500.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Museo Cyrl 500";
+    src: url("fonts/MuseoCyrl-500.woff2") format("woff2"), url("fonts/MuseoCyrl-500.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Futura PT";
-  src: url("fonts/FuturaPT-Heavy.woff2") format("woff2"), url("fonts/FuturaPT-Heavy.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Futura PT";
+    src: url("fonts/FuturaPT-Heavy.woff2") format("woff2"), url("fonts/FuturaPT-Heavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
 }
 
 .main {
-  background-color: #1f1e22;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  padding-top: 3vh;
+    background-color: #1f1e22;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 3vh;
 }
+
 .main__img {
-  position: absolute;
-  margin-left: 340px;
-  margin-top: -20px;
-  opacity: 0.1;
-  mix-blend-mode: screen;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -20px;
+    opacity: 0.1;
+    mix-blend-mode: screen;
 }
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .block {
-  height: 750px;
-  position: relative;
+    height: 750px;
+    position: relative;
 }
 
 .img-1 {
-  position: absolute;
-  animation: rotating1 5s 1s linear infinite;
+    position: absolute;
+    animation: rotating1 5s 1s linear infinite;
 }
 
 .img-2 {
-  position: absolute;
-  top: 257px;
-  left: -40px;
-  animation: rotating2 5s 1s linear infinite;
+    position: absolute;
+    top: 257px;
+    left: -40px;
+    animation: rotating2 5s 1s linear infinite;
 }
 
 .img-3 {
-  position: absolute;
-  top: 282px;
-  left: 11px;
-  animation: rotating3 5s 1s linear infinite;
+    position: absolute;
+    top: 282px;
+    left: 11px;
+    animation: rotating3 5s 1s linear infinite;
 }
 
 .img-4 {
-  position: absolute;
-  top: 282px;
-  left: 173px;
-  animation: rotating4 5s 1s linear infinite;
+    position: absolute;
+    top: 282px;
+    left: 173px;
+    animation: rotating4 5s 1s linear infinite;
 }
 
 .img-5 {
-  position: absolute;
-  top: 292px;
-  left: -14px;
-  animation: rotating5 5s 1s linear infinite;
+    position: absolute;
+    top: 292px;
+    left: -14px;
+    animation: rotating5 5s 1s linear infinite;
 }
 
 .img-6 {
-  position: absolute;
-  top: 292px;
-  left: -85px;
+    position: absolute;
+    top: 292px;
+    left: -85px;
 }
 
 .img-7 {
-  position: absolute;
-  top: 417px;
-  left: -61px;
-  animation: rotating7 5s 1s linear infinite;
+    position: absolute;
+    top: 417px;
+    left: -61px;
+    animation: rotating7 5s 1s linear infinite;
 }
 
 @keyframes rotating1 {
-  0% {
-    transform: translateY();
-  }
-  50% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY();
-  }
+    0% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY();
+    }
 }
 
 @keyframes rotating2 {
-  0% {
-    transform: translateY();
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-  100% {
-    transform: translateY();
-  }
+    0% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY();
+    }
 }
 
 @keyframes rotating3 {
-  0% {
-    transform: translateY();
-  }
-  50% {
-    transform: translateY(-25px);
-  }
-  100% {
-    transform: translateY();
-  }
+    0% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY();
+    }
 }
 
 @keyframes rotating4 {
-  0% {
-    transform: translateX();
-  }
-  50% {
-    transform: translateX(50px);
-  }
-  100% {
-    transform: translateX();
-  }
+    0% {
+        transform: translateX();
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX();
+    }
 }
 
 @keyframes rotating5 {
-  0% {
-    transform: translateX();
-  }
-  50% {
-    transform: translateX(-50px);
-  }
-  100% {
-    transform: translateX();
-  }
+    0% {
+        transform: translateX();
+    }
+    50% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX();
+    }
 }
 
 @keyframes rotating7 {
-  0% {
-    transform: translateY();
-  }
-  50% {
-    transform: translateY(50px);
-  }
-  100% {
-    transform: translateY();
-  }
+    0% {
+        transform: translateY();
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY();
+    }
 }
 
 .img-11 {
-  filter: grayscale(1) brightness(1000%);
-  margin-top: -20px;
+    filter: grayscale(1) brightness(1000%);
+    margin-top: -20px;
 }
 
 .nav li {
-  color: #afafb0;
-  list-style-type: none;
-  font-size: 16px;
-  font-family: "Futura PT";
-  display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
+    color: #afafb0;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Futura PT";
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .nav a {
-  color: #afafb0;
+    color: #afafb0;
 }
 
 .nav a:hover {
-  color: #e4872c;
-  text-decoration: none;
+    color: #e4872c;
+    text-decoration: none;
 }
 
 .main__text1 {
-  color: #937750;
-  font-size: 14px;
-  font-family: "Futura PT Book";
+    color: #937750;
+    font-size: 14px;
+    font-family: "Futura PT Book";
 }
 
 .main__text2 {
-  color: #fbfcfd;
-  font-size: 16px;
-  font-family: "Futura PT Book";
-  font-weight: 700;
+    color: #fbfcfd;
+    font-size: 16px;
+    font-family: "Futura PT Book";
+    font-weight: 700;
 }
 
 .main__icon_all {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .main__text3 {
-  color: #afafb0;
-  font-size: 18px;
-  font-family: "Futura PT";
-  line-height: 1;
-  margin-top: 10px;
+    color: #afafb0;
+    font-size: 18px;
+    font-family: "Futura PT";
+    line-height: 1;
+    margin-top: 10px;
 }
 
 .main-icon1 {
-  color: #937750;
-  font-size: 17px;
+    color: #937750;
+    font-size: 17px;
 }
 
 .main-icon2 {
-  color: #fbfcfd;
-  font-size: 2em;
+    color: #fbfcfd;
+    font-size: 2em;
 }
 
 .main-icon3 {
-  color: #937750;
-  font-size: 35px;
-  margin-top: 30px;
+    color: #937750;
+    font-size: 35px;
+    margin-top: 30px;
 }
 
 .main-icon3:hover {
-  color: wheat;
+    color: wheat;
 }
 
 .main__center h3 {
-  color: #937750;
-  font-size: 16px;
-  font-family: "Futura PT";
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 73px;
-  margin-bottom: 39px;
+    color: #937750;
+    font-size: 16px;
+    font-family: "Futura PT";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 73px;
+    margin-bottom: 39px;
 }
 
 .main__center h1 {
-  color: white;
-  font-size: 42px;
-  font-family: "Museo Cyrl 500";
-  font-weight: 700;
-  margin-bottom: 39px;
+    color: white;
+    font-size: 42px;
+    font-family: "Museo Cyrl 500";
+    font-weight: 700;
+    margin-bottom: 39px;
 }
 
 .main__center p {
-  color: #afafb0;
-  font-size: 18px;
-  font-family: "Futura PT";
-  line-height: 1.3;
-  margin-bottom: 57px;
+    color: #afafb0;
+    font-size: 18px;
+    font-family: "Futura PT";
+    line-height: 1.3;
+    margin-bottom: 57px;
 }
 
 .button {
-  color: white;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-weight: 700;
-  padding: 20px 40px 20px;
-  background-color: #ed8236;
-  border: none;
-  transition: box-shadow 0.5s;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 40px 20px;
+    background-color: #ed8236;
+    border: none;
+    transition: box-shadow 0.5s;
 }
 
 .button:hover {
-  cursor: pointer;
-  box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
+    cursor: pointer;
+    box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
 }
 
 .arrow-left {
-  border: 1px solid #937750;
-  border-radius: 50%;
-  padding: 15px 10px 15px;
+    border: 1px solid #937750;
+    border-radius: 50%;
+    padding: 15px 10px 15px;
 }
 
 .arrow-right {
-  border: 1px solid #937750;
-  border-radius: 50%;
-  padding: 15px 10px 15px;
-  margin-left: 30px;
-  transform: scale(-1, 1);
+    border: 1px solid #937750;
+    border-radius: 50%;
+    padding: 15px 10px 15px;
+    margin-left: 30px;
+    transform: scale(-1, 1);
 }
+
 .arrow-left,
 .arrow-right {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .nav-arrow:hover {
-  cursor: pointer;
-  filter: contrast(1%) sepia(100%) hue-rotate(5deg) brightness(0.9) saturate(500%);
+    cursor: pointer;
+    filter: contrast(1%) sepia(100%) hue-rotate(5deg) brightness(0.9) saturate(500%);
 }
 
 .main-arrow {
-  width: 3%;
-  height: 3%;
-  margin-top: 40px;
+    width: 3%;
+    height: 3%;
+    margin-top: 40px;
 }
 
 .main-arrow:hover {
-  cursor: pointer;
-  filter: contrast(1%) sepia(100%) hue-rotate(5deg) brightness(0.8) saturate(500%);
+    cursor: pointer;
+    filter: contrast(1%) sepia(100%) hue-rotate(5deg) brightness(0.8) saturate(500%);
 }
 
 .icon-arrow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .center {
-  background: url(img/19.jpg) no-repeat;
-  height: 1000px;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  padding-top: 3vh;
+    background: url(img/19.jpg) no-repeat;
+    height: 1000px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 3vh;
 }
 
 .center__block1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: start;
-  max-width: 500px;
-  margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    max-width: 500px;
+    margin-left: 80px;
 }
 
 .center__block1 p {
-  color: #afafb0;
-  font-size: 18px;
-  font-family: "Futura PT";
-  margin-bottom: 57px;
-  line-height: 1.3;
+    color: #afafb0;
+    font-size: 18px;
+    font-family: "Futura PT";
+    margin-bottom: 57px;
+    line-height: 1.3;
 }
+
 .center-icon3 {
-  color: #937750;
-  font-size: 35px;
-  margin-right: 10px;
+    color: #937750;
+    font-size: 35px;
+    margin-right: 10px;
 }
+
 .center__block2 {
-  display: flex;
-  margin-bottom: 36px;
+    display: flex;
+    margin-bottom: 36px;
 }
+
 .center__block2 h3 {
-  color: #ffffff;
-  font-size: 24px;
-  font-family: "Museo Cyrl 500";
-  font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Museo Cyrl 500";
+    font-weight: 700;
 }
+
 .center__block2 h2 {
-  color: #bc9a6b;
-  font-size: 24px;
-  font-family: "Futura PT";
-  font-weight: 700;
-  margin-left: 48px;
+    color: #bc9a6b;
+    font-size: 24px;
+    font-family: "Futura PT";
+    font-weight: 700;
+    margin-left: 48px;
 }
+
 .center__block3 h1 {
-  color: #ffffff;
-  font-size: 60px;
-  font-family: "Museo Cyrl 500";
-  margin-bottom: 90px;
-  font-weight: 700;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Museo Cyrl 500";
+    margin-bottom: 90px;
+    font-weight: 700;
 }
+
 .square {
-  background-color: #1f1e22;
-  width: 281px;
-  height: 250px;
-  position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transition: border 0.5s;
+    background-color: #1f1e22;
+    width: 281px;
+    height: 250px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: border 0.5s;
 }
+
 .square:hover {
-  border: 3px solid #d9a55a;
+    border: 3px solid #d9a55a;
 }
 
 .square-mg {
-  margin-left: 38px;
+    margin-left: 38px;
 }
+
 .square p {
-  color: #dfdfdf;
-  font-size: 18px;
-  font-family: "Futura PT";
-  margin-top: 20px;
+    color: #dfdfdf;
+    font-size: 18px;
+    font-family: "Futura PT";
+    margin-top: 20px;
 }
+
 .center__block4 {
-  display: flex;
+    display: flex;
 }
+
 .center__button {
-  color: white;
-  font-size: 24px;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-weight: 700;
-  width: 601px;
-  height: 86px;
-  background-color: #ed8236;
-  border: none;
-  transition: box-shadow 0.5s;
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    width: 601px;
+    height: 86px;
+    background-color: #ed8236;
+    border: none;
+    transition: box-shadow 0.5s;
 }
+
 .center__button:hover {
-  cursor: pointer;
-  box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
+    cursor: pointer;
+    box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
 }
+
 .why-us {
-  padding-left: 10vh;
-  padding-right: 10vh;
-  background-color: #1f1e23;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    background-color: #1f1e23;
 }
+
 .why-us__block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .why-us__img {
-  opacity: 0.6;
-  mix-blend-mode: screen;
+    opacity: 0.6;
+    mix-blend-mode: screen;
 }
+
 .why-us__img2 {
-  margin-top: 600px;
-  margin-left: -70px;
-  position: absolute;
+    margin-top: 600px;
+    margin-left: -70px;
+    position: absolute;
 }
+
 .why-us__img1 {
-  margin-top: 200px;
-  margin-left: -70px;
-  position: absolute;
-  mix-blend-mode: lighten;
-  width: 600px;
-  opacity: 0.2;
+    margin-top: 200px;
+    margin-left: -70px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    width: 600px;
+    opacity: 0.2;
 }
+
 .why-us__block p {
-  position: absolute;
-  color: white;
-  font-size: 60px;
-  font-family: "Museo Cyrl 500";
-  text-align: center;
-  line-height: 1.1;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: "Museo Cyrl 500";
+    text-align: center;
+    line-height: 1.1;
 }
+
 .why-us__heading {
-  color: white;
-  font-size: 24px;
-  font-family: "Futura PT";
-  text-align: left;
-  margin-top: 90px;
-  margin-bottom: 21px;
-  display: flex;
-  align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Futura PT";
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
 }
+
 .why-us__heading:before {
-  color: #937750;
-  font-size: 30px;
-  display: block;
+    color: #937750;
+    font-size: 30px;
+    display: block;
 }
+
 .why-us__text {
-  color: #937750;
-  font-size: 18px;
-  font-family: "Futura PT";
-  text-align: justify;
+    color: #937750;
+    font-size: 18px;
+    font-family: "Futura PT";
+    text-align: justify;
 }
+
 .why-us__block-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .scheme {
-  background-color: #1f1e22;
+    background-color: #1f1e22;
 }
+
 .scheme__img {
-  position: absolute;
-  opacity: 0.1;
-  height: 110%;
-  margin-top: 200px;
+    position: absolute;
+    opacity: 0.1;
+    height: 110%;
+    margin-top: 200px;
 }
+
 .scheme__heading {
-  color: white;
-  font-size: 60px;
-  font-family: "Museo Cyrl 500";
-  text-align: center;
-  margin-top: 140px;
+    color: white;
+    font-size: 60px;
+    font-family: "Museo Cyrl 500";
+    text-align: center;
+    margin-top: 140px;
 }
+
 .scheme__text {
-  color: #aa824a;
-  font-size: 24px;
-  font-family: "Futura PT";
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: -30px;
+    color: #aa824a;
+    font-size: 24px;
+    font-family: "Futura PT";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
 }
+
 .scheme__card {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .scheme__number {
-  color: #232226;
-  font-size: 250px;
-  font-family: "Futura PT";
-  text-align: center;
-  font-weight: 900;
-  position: absolute;
-  text-shadow: 0 0 1em #1c1b1f;
+    color: #232226;
+    font-size: 250px;
+    font-family: "Futura PT";
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    text-shadow: 0 0 1em #1c1b1f;
 }
+
 .scheme-icon1 {
-  color: #b48a4d;
-  font-size: 30px;
-  position: absolute;
-  margin-top: 50px;
+    color: #b48a4d;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 50px;
 }
+
 .scheme-icon2 {
-  color: #b48a4d;
-  font-size: 40px;
-  position: absolute;
-  margin-top: 60px;
+    color: #b48a4d;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 60px;
 }
+
 .scheme__slogan {
-  color: white;
-  font-size: 18px;
-  font-family: "Futura PT";
-  text-align: center;
-  font-weight: 700;
-  position: relative;
-  margin-top: 300px;
+    color: white;
+    font-size: 18px;
+    font-family: "Futura PT";
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    margin-top: 300px;
 }
+
 .scheme__slogan1 {
-  color: #aa824a;
-  font-size: 18px;
-  font-family: "Futura PT";
-  text-align: center;
-  position: relative;
+    color: #aa824a;
+    font-size: 18px;
+    font-family: "Futura PT";
+    text-align: left;
+    position: relative;
 }
+
 .scheme__button {
-  color: white;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-weight: 700;
-  width: 277px;
-  height: 72px;
-  background-color: #ed8236;
-  border: none;
-  transition: box-shadow 0.5s;
-  margin-top: 90px;
-  margin-bottom: 130px;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    width: 277px;
+    height: 72px;
+    background-color: #ed8236;
+    border: none;
+    transition: box-shadow 0.5s;
+    margin-top: 90px;
+    margin-bottom: 130px;
 }
+
 .scheme__button:hover {
-  cursor: pointer;
-  box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
+    cursor: pointer;
+    box-shadow: 1px 8px 30px 2px rgba(191, 90, 0, 0.3);
 }
+
 .footer {
-  background-color: #252429;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  padding-top: 20vh;
+    background-color: #252429;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 20vh;
 }
+
 .footer__text1 {
-  color: #d4d4d5;
-  font-size: 16px;
-  font-family: "Futura PT";
-  line-height: 1.6;
-  padding-top: 86px;
+    color: #d4d4d5;
+    font-size: 16px;
+    font-family: "Futura PT";
+    line-height: 1.6;
+    padding-top: 86px;
 }
+
 .footer__text2 {
-  color: #d4d4d5;
-  font-size: 16px;
-  font-family: "Futura PT";
-  text-decoration: underline;
-  padding-top: 60px;
+    color: #d4d4d5;
+    font-size: 16px;
+    font-family: "Futura PT";
+    text-decoration: underline;
+    padding-top: 60px;
 }
+
 .footer__list {
-  color: #afafb0;
-  list-style-type: none;
-  font-size: 18px;
-  font-family: "Futura PT";
+    color: #afafb0;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "Futura PT";
 }
+
 .footer__list li {
-  margin-top: 15px;
-  margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
 .footer__list a {
-  color: #afafb0;
+    color: #afafb0;
 }
 
 .footer__list a:hover {
-  color: #e4872c;
-  text-decoration: none;
+    color: #e4872c;
+    text-decoration: none;
 }
+
 .footer__text3 {
-  color: #d4d4d5;
-  font-size: 14px;
-  font-family: "Futura PT";
+    color: #d4d4d5;
+    font-size: 14px;
+    font-family: "Futura PT";
 }
+
 .footer__text4 {
-  color: #d4d4d5;
-  font-size: 16px;
-  font-family: "Futura PT";
-  font-weight: 700;
-  margin-bottom: 36px;
+    color: #d4d4d5;
+    font-size: 16px;
+    font-family: "Futura PT";
+    font-weight: 700;
+    margin-bottom: 36px;
 }
+
 .footer__text5 {
-  color: #d4d4d5;
-  font-size: 18px;
-  font-family: "Futura PT";
-}
-.footer__text6 {
-  color: #d4d4d5;
-  font-size: 16px;
-  font-family: "Futura PT";
-  font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-.footer__img {
-  margin-top: -220px;
-  margin-left: -130px;
-}
-@media (max-width: 1120px) {
-  .nav {
-    display: flex;
-    flex-direction: row;
-  }
-  .center__img2, .why-us__img1, .why-us__img2, .footer__img, .block, .center__block1
-   {
-    display: none;
-  }
-  .center__block3 h1, .why-us__block p, .scheme__heading {
-    font-size: 30px;
-  }
-  .scheme__text {
+    color: #d4d4d5;
     font-size: 18px;
-  }
+    font-family: "Futura PT";
+}
+
+.footer__text6 {
+    color: #d4d4d5;
+    font-size: 16px;
+    font-family: "Futura PT";
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer__img {
+    margin-top: -220px;
+    margin-left: -130px;
+}
+
+@media (max-width: 1120px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .center__img2,
+    .why-us__img1,
+    .why-us__img2,
+    .footer__img,
+    .block,
+    .center__block1 {
+        display: none;
+    }
+    .center__block3 h1,
+    .why-us__block p,
+    .scheme__heading {
+        font-size: 30px;
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .scheme__text {
+        font-size: 18px;
+    }
+    ul.list li {
+        display: inline;
+        margin-right: 5px;
+        padding: 3px;
+    }
+    .center__button {
+        font-size: 18px;
+        width: 301px;
+        height: 70px;
+    }
+    .scheme__button {
+        font-size: 18px;
+        width: 301px;
+        height: 70px;
+    }
 }
