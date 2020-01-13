@@ -318,13 +318,16 @@
 
 .main__img {
     position: absolute;
-    margin-left: 490px;
+    margin-left: 80px;
     margin-top: -20px;
     opacity: 0.1;
     mix-blend-mode: screen;
+    float: right;
+    padding: 0;
+    overflow: hidden;
 }
 
-.container {
+.bake {
     display: flex;
     justify-content: center;
     align-items: center;
