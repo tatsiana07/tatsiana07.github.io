@@ -311,6 +311,9 @@
     padding-left: 10vh;
     padding-right: 10vh;
     padding-top: 3vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .main__img {
@@ -509,6 +512,12 @@
 .main-icon2 {
     color: #fbfcfd;
     font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shopping {
+    display: flex;
 }
 
 .main-icon3 {
@@ -519,6 +528,7 @@
 
 .main-icon3:hover {
     color: wheat;
+    filter: drop-shadow(0 0 10px orange);
 }
 
 .main__center h3 {
@@ -611,6 +621,9 @@
     padding-left: 10vh;
     padding-right: 10vh;
     padding-top: 3vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .center__block1 {
@@ -719,6 +732,9 @@
     padding-left: 10vh;
     padding-right: 10vh;
     background-color: #1f1e23;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .why-us__block {
@@ -789,6 +805,9 @@
 
 .scheme {
     background-color: #1f1e22;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .scheme__img {
@@ -890,6 +909,9 @@
     padding-left: 10vh;
     padding-right: 10vh;
     padding-top: 20vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .footer__text1 {
